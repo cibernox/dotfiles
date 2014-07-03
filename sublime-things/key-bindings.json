@@ -1,0 +1,6 @@
+[
+  { "keys": ["super+b"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+    { "keys": ["enter"], "command": "find_in_files_goto", "context": [{"key": "selector", "operator": "equal", "operand": "text.find-in-files" }] },
+      { "keys": ["shift+super+r"], "command": "open_rspec_file" }
+      ]
+
